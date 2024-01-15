@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    display: flex;
+    background-color: rgb(208, 224, 230);
+    flex-wrap: wrap; /* Add flex-wrap property */
+}
+
+.left-block{
+    padding: 20px;
+    border: 2px solid #ccc; /* Border color and width */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+    width: 460px;
+    background-color: white; /* Background color for the left block */
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+.right-block {
+    padding: 20px;
+    border: 2px solid #ccc; /* Border color and width */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+    width: 65%;
+    margin-left: 20px; /* Adjust margin for padding between blocks */
+    background-color: #c8dac0fc; /* Background color for the right block */
+    height: 1660px;
+    margin-top: 10px;
+}
+
+.right-block2 {
+    padding: 20px;
+    border: 2px solid #ccc; /* Border color and width */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width */
+    width: 90%;
+    margin-left: 20px; /* Adjust margin for padding between blocks */
+    background-color: rgb(204, 213, 224); /* Background color for the right block */
+    margin-top: 10px;
+}
+
+.Profile{
+    height: 300px;
+    width: 420px;
+}
