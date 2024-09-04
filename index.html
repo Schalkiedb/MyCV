@@ -1,197 +1,403 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Building PC</title>
-    <meta name="description" content="">
+    <title>Schalk de Beer - CV</title>
+    <meta name="description" content="Curriculum Vitae of Schalk de Beer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="Styles/CV.css">
-    <!--Including jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
-    <script type='text/javascript' src="scripts\script.js"></script>
+    <!-- Including jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  
-    <!-- Left Block -->
-    <div class="left-block">
-        <h2>Schalk de Beer</h2>
-        <img src="Images/Profile.png" alt="" class="Profile">
-        <p><img src="Images/CurrentRole.png" alt="">  SoftWare developer</p>
-        <p><img src="Images/Residency.png" alt="">  South Africa, Guateng</p>
-        <p><img src="Images/email.png" alt="">  Schalkiedb@gmail.com</p>
-        <p><img src="Images/phone.png" alt="">  0834105682</p>
-        <a href="https://www.linkedin.com/in/schalk-de-beer-3ab7a891/"><img src="Images/LinkedIn.png" alt="" width="27px"> Linkedin Profile</a>
-        
-        <h3>Biography</h3>
-        <p>My name is Schalk de Beer, I am Technical developer with 23years of software experience. I started my development career in 2014 working on the frond end. I moved into the backend development in 2020.</p>
-        <p>I have deep passion for building and tinkering with software. The continuous change in development enviroment and methods of building software is what motivates me to keep improving myself and stay update with the trends</p>
-        <p>I would like to continue with my career and studies and have a smooth tranistion into the cloud development space at work</p>
-        
-        <h3>Skills</h2>
-            <ul>
-                <li>Excel</li>
-                <li>Microsoft Word</li>
-                <li>C#</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Python</li>
-                <li>CaseWare Idea</li>
-                <li>Postman</li>
-                <li>Api's To different databases</li>
-                <li>XBRL</li>
-                <li>XML</li>
-                <li>My SQL</li>
-                <li>SQL server</li>
-                <li>CaseWare Working Papers- SME, IFRS, GRAP, SAIPA, IPSAS, Audit International,MCS, MSCOA</li>
-                <li>CaseWare Corporate Tax Module</li>
-                <li>Caseview development on above templates</li>
-                <li>QTest</li>
-                <li>CaseWare Smart Sync</li>
-                <li>CaseWare Interactive Dashboard</li>
-                <li>Bizsuite</li>
-                <li>CaseWare Connector</li>
-                <li>Confirmations</li>
-                <li>Probe Compilation, Review and Audit Methodology</li>
-                <li>Salesforce</li>
-                <li>Jira</li>
-                <li>Confluence</li>
-                <li>Product Manager/Product Owner SAFE 3.0 Certificate</li>
-                <li>On-Time</li>
-                <li>Pastel Partner 2004, 2005, 2007, 2009, V11, V12</li>
-                <li>Pastel Xpress 2004, 2005, 2007, 2009, V11, V12</li>
-                <li>Pastel My Invoicing</li>
-                <li>Pastel Evolution Basic Practioner</li>
-                <li>Delphi 7 programming</li>
-            </ul>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Block -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Images/Profile.png" class="card-img-top" alt="Profile Image">
+                    <div class="card-body">
+                        <h2 class="card-title">Schalk de Beer</h2>
+                        <p class="card-text">
+                            <img src="Images/CurrentRole.png" alt="Role Icon" class="mr-2">Software Developer
+                        </p>
+                        <p class="card-text">
+                            <img src="Images/Residency.png" alt="Location Icon" class="mr-2">South Africa, Gauteng
+                        </p>
+                        <p class="card-text">
+                            <img src="Images/email.png" alt="Email Icon" class="mr-2">Schalkiedb@gmail.com
+                        </p>
+                        <p class="card-text">
+                            <img src="Images/phone.png" alt="Phone Icon" class="mr-2">0834105682
+                        </p>
+                        <a href="https://www.linkedin.com/in/schalk-de-beer-3ab7a891/" target="_blank"
+                            class="btn btn-primary mb-2">
+                            <img src="Images/LinkedIn.png" alt="LinkedIn Icon" width="27px"> LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/Schalkiedb" target="_blank" class="btn btn-dark">
+                            <img src="Images/Github.png" alt="GitHub Icon" width="27px"> GitHub Profile
+                        </a>
+                        <br>
+                        <a href="https://www.hyperiondev.com/portfolio/PD23040009137/" target="_blank"
+                            class="btn btn-primary mb-2" style="margin-top: 7px;">
+                            <img src="Images/HyperionDev.png" alt="GitHub Icon" width="27px"> HyperionDev Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Biography</h3>
+                        <p class="card-text">
+                            My name is Schalk de Beer, a Technical Developer with 10 years of software experience. I
+                            began my development career in 2014 focusing on frontend, and transitioned to backend
+                            development in 2020.
+                        </p>
+                        <p class="card-text">
+                            I am passionate about building and tinkering with software. The ever-changing development
+                            environment and methods keep me motivated to continuously improve and stay updated with
+                            trends.
+                        </p>
+                        <p class="card-text">
+                            I aim to further my career and studies with a smooth transition into cloud development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Skills</h3>
+                        <ul class="list-unstyled">
+                            <li>Excel</li>
+                            <li>Microsoft Word</li>
+                            <li>Java</li>
+                            <li>PHP</li>
+                            <li>Node.js</li>
+                            <li>React.js</li>
+                            <li>Express.js</li>
+                            <li>Laravel</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
+                            <li>WordPress</li>
+                            <li>AJAX</li>
+                            <li>Docker</li>
+                            <li>C#</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>CaseWare IDEA</li>
+                            <li>Postman</li>
+                            <li>APIs to different databases</li>
+                            <li>XBRL</li>
+                            <li>XML</li>
+                            <li>MySQL</li>
+                            <li>SQL Server</li>
+                            <li>CaseWare Working Papers - SME, IFRS, GRAP, SAIPA, IPSAS, Audit International, MCS, MSCOA
+                            </li>
+                            <li>CaseWare Corporate Tax Module</li>
+                            <li>Caseview development on above templates</li>
+                            <li>QTest</li>
+                            <li>CaseWare Smart Sync</li>
+                            <li>CaseWare Interactive Dashboard</li>
+                            <li>Bizsuite</li>
+                            <li>CaseWare Connector</li>
+                            <li>Confirmations</li>
+                            <li>Probe Compilation, Review and Audit Methodology</li>
+                            <li>Salesforce</li>
+                            <li>Jira</li>
+                            <li>Confluence</li>
+                            <li>Product Manager/Product Owner SAFE 3.0 Certificate</li>
+                            <li>On-Time</li>
+                            <li>Pastel Partner (2004, 2005, 2007, 2009, V11, V12)</li>
+                            <li>Pastel Xpress (2004, 2005, 2007, 2009, V11, V12)</li>
+                            <li>Pastel My Invoicing</li>
+                            <li>Pastel Evolution Basic Practitioner</li>
+                            <li>Delphi 7 Programming</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Education</h2>
+
+                        <h4>Full Stack Web & Software Engineer</h4>
+                        <h5>HyperionDev</h5>
+                        <p>2024</p>
+
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <h5>University of Johannesburg</h5>
+                        <p>2007 - 2010</p>
+
+                        <h4>Bachelor of Commerce, Accounting Science (Bcompt)</h4>
+                        <h5>Unisa</h5>
+                        <p>2016</p>
+
+                        <h4>Matriculated</h4>
+                        <h5>Hoërskool Noordheuwel</h5>
+                        <p>2007</p>
+                    </div>
+                </div>
+                
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Personal Projects</h2>
+
+                        <h4>Job card system</h4>
+                        <p>A express and react application for adding Job cards, Setting Statuses, archiving Jobs and editing existing Jobs if requirements have changed.
+                            Built with React.js and Node.js.</p>
+
+                        <h4>Credentials Management system</h4>
+                        <p>Application that uses express and react for the frontend and backend. ALso links to MongoDB atlas for the database</p>
+                        <p>System allows the users to be assigned to operational units with its own set of division</p>
+                        <p>Each division has its own credential repositry. For example logins to server, finance etc</p>
+                        <p>Users are able to view the password for these application and are allowed to add more but not edit</p>
+                        <p>Management can edit existing credentials</p>
+                        <p>Admin users are able to do the above and also assign users to other operational units and divisions where necessary</p>
+
+                        <h4>Github user search</h4>
+                        <p>Simple application that uses express and react that allows the user to connect to the github api and perform Queries.</p>
+                        <p>Allows the user to search for other users and see their repos.</p>
+                        <p>User is able to drill down into these repo and see the commits created by the owner of the repo</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Block -->
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Career Experience</h2>
+
+                        <h4>Technical developer (May 2020 - current)</h4>
+                        <h5>AdaptIT - CaseWare Africa division - Midrand, Gauteng</h5>
+                        <ul>
+
+                            <strong>Current Role Responsibilities:</strong>
+                            <br>
+                            <strong>Contribute to Development and Testing:</strong>
 
 
-        
-     
-    </div>
+                            <li>Participate in the development and validation of user stories, ensuring adherence to
+                                development standards.</li>
+                            <li>Analyze development requirements from specifications and build features/products. Test
+                                newly
+                                created features before passing them to the test analyst for further validation.</li>
+                            <li>Ensure user stories meet the definition of ready and maintain alignment with development
+                                standards.</li>
+                            <li>Code Review and Quality Assurance:
 
-    <!-- Right Block -->
-    <div class="right-block">
-        <h2>Career Experience</h2>
-        <h4>Technical developer (May 2020 - current)</h4>
-        <h4>Senior functional template developer (March 2017 - April 2020)</h4>
-        <h5>CQS Technology Holdings - Dunkeld, Gauteng</h5>
-        <ul>
-            <li>Taking ownership and delivering of technical requirements received by Product Owner</li>
-            <li>Upskilling of junior developers</li>
-            <li>Ensuring that development team delivers on items commimited to during sprint planning</li>
-            <li>Assisting developers to reach their goals before sprint ends</li>
-            <li>identifying road blocks during sprint planning and give possible work arounds or solutions</li>
-            <li>Ensuring development Standards are kept throughout development cycle for team</li>
-            <li>Conistenly delivering high quality work with minimal defects</li>
-            <li>Assist training department on creating a Upskilling program for new developer joining the company</li>
-            <li>Peforming and exceeding the task of a functional developer</li>
-            <li>Peforming the duties as team lead for functional developers</li>           
-        </ul>
+                            <li>Conduct thorough code reviews using GitHub, merging code changes when ready or providing
+                                feedback for necessary fixes.</li>
+                            <li>Identify potential quality issues and implement solutions to maintain high standards.
+                            </li>
+                            <br>
+                            <strong>Sprint Execution and Stakeholder Coordination:</strong>
+                            
 
-        <h4>Functional template developer (October 2014 - February 2017)</h4>
-        <h5>CQS Technology Holdings - Dunkeld, Gauteng</h5>
-        <ul>
-            <li>Produce template customizations of great quality that requires minimal rework.</li>
-            <li>Perform the review of the work of own and other functional template developers for accuracy and completeness.</li>
-            <li>Critically assess the effectiveness of current functional template development methods and principles and provide suggestions for improvements.</li>
-            <li>Critically assess technical requirements and functional specifications for software changes to ensure that we build great product which makes a difference to our clients.</li>
-            <li>Conscious continuous improvement shown in every sprint (and kept up in future sprints) - Kaizen</li>
-            <li>Work effectively as an individual in a team to deliver workable pieces of software (Features) at the end of each PI</li>
-            <li>Participate in Backlog grooming as to ensure that Stories meet the definition of ready before taking into sprint</li>
-            <li>Effectively estimating stories in Sprint planning and backlog grooming in order identify the following: risks, dependencies, uncertainty, Volume and Complexity</li>
-            <li>Having effective and regular ceremonies where all team members participate - Sprint planning, daily scrums, demo/review, retrospectives, backlog grooming</li>
-            <li>Team is healthy with regards to Agile (self-organising, respect each other, ceremonies are kept up, work is iterative)</li>
-            <li>Deliver consistently on 90% - 100% at feature level - working software at the end of every sprint</li>
-            <li>Ensuring development Standards are kept throughout development cycle</li>
-        </ul>
+                            <li>Drive successful sprint execution by coordinating with stakeholders across the release
+                                value
+                                chain, including Product Development, Product Owners, Product Managers, Content
+                                Providers,
+                                and Third Parties.</li>
+                            <li>Actively participate in key activities contributing to the success of each Program
+                                Increment.</li>
+                            Efficiency and Risk Management:
 
-        <h4>CaseWare support consultant (August 2012 - October 2014)</h4>
-        <h5>CQS Technology Holdings - Dunkeld, Gauteng</h5>
-        <ul>
-            <li>Provides support to users experiencing problems using software or inquiring how to use specific features.</li>
-            <li>Assists in fixing client files.</li>
-            <li>Makes pro-active support calls to ensure that all clients are satisfied.</li>
-            <li>Assists in testing new software and templates.</li>
-            <li>Adhoc tasks as assigned by manager when required.</li>
-            <li>PWC dedicated Consultant (Firm Template Customizations)</li>
-            <li>Test PWC reported problems on customized template and fix where needed</li>
-            <li>Create FAQ on Frequently asked Queries</li>
-            <li>Gives Training to Team members as requested by manager</li>
-            <li>Test the latest software before final release</li>
-        </ul>
+                            <li>Enhance delivery efficiency by addressing challenges that may impact successful
+                                outcomes.
+                            </li>
 
-        <h4>Pastel Technical support (June 2010 - July 2012)</h4>
-        <h5>Soft line Pastel - Woodmead, Gauteng</h5>
-        <ul>
-            <li>Provides support to users experiencing problems using software or inquiring how to use specific features.</li>
-            <li>Assists in fixing client files.</li>
-            <li>Makes pro-active support calls to ensure that all clients are satisfied.</li>
-            <li>Assists in testing new software</li>
-            <li>Adhoc tasks as assigned by manager when required.</li>
-        </ul>
-    
-        <h4>Junior Auditor (March 2009 - November 2009)</h4>
-        <h5>JCB incorporated - Parkhurst, Gauteng</h5>
-        <ul>
-            <li>Auditing Clients Books ETC</li>
-            <li>Filing</li>
-            <li>Expenses</li>
-            <li>Trade and other Payables</li>
-            <li>Trade and other Receivables</li>
-            <li>Revenue</li>
-            <li>Purchases</li>
-            <li>Capital Working Papers</li>
-            <li>Cash and Cash equivalents</li>
-            <li>Finance Cost</li>
-            <li>Normal Office work</li>
-            <li>Stock Quantity Testing</li>
-        </ul>
-    </div>
-  
-    <!-- Right Block -->
-    <div class="right-block2">
-        <h2>Languages</h2>
-            <ul>
-                <li>English</li>
-                <li>Afrikaans</li>
-    
-            </ul>
 
-        <h2>Education</h2>
-        
-        <h4>Matriculated</h4>
-        <ul>
-            <li>
-                <h5>Hoërskool Noordheuwel</h5>
-            </li>
-            <li>
-                <h5>Completed: 2007</h5>
-            </li>
-        </ul>
- 
-        <h4>Bachelor of Business informatics - Unisa</h4>
-        <ul>
-            <li>
-                <h5>Unisa</h5>
-            </li>
-            <li>
-                <h5>Completed: 2021</h5>
-            </li>
-        </ul>
+                            <li>Collaborate with Scrum Masters, Product Owners, and team members to identify and
+                                mitigate
+                                potential risks.</li>
+                            <br>
+                            <strong>Cross-Team Collaboration and Communication:</strong>
 
-        <h4>Bachelor of Commerce, Accounting Science (Bcompt)</h4>
-        <ul>
-            <li>
-                <h5>Unisa</h5>
-            </li>
-            <li>
-                <h5>Completed: 2016</h5>
-            </li>
-        </ul>
+
+                            <li>Maintain effective communication with relevant teams (Product, Support, Training,
+                                Consulting, etc.) to gather real-time customer insights and inform customer experience
+                                interventions.</li>
+                            <li>Support go-to-market execution by working closely with Product Owners and development
+                                teams
+                                to optimize user experiences, resolve customer issues, and collaborate with customer
+                                success
+                                and client-facing functions.</li>
+                            <br>
+                            <strong>Customer Relationship and Product Improvement:</strong>
+
+
+                            <li>Establish trusted relationships with clients to drive continued value from products and
+                                services.</li>
+                            <li>Understand client feedback to deliver additional product features and capabilities that
+                                address client needs.</li>
+                            <li>Optimize existing metrics and define new areas of measurement to improve velocity, cycle
+                                time, product experiences, and performance.</li>
+
+                            <br>
+                            <strong>Daily Activities:</strong>
+                            <br>
+                            <strong> Code Development and Version Control:</strong>
+
+
+
+                            <li>Utilize GitHub to push code changes for assigned features, ensuring code reviews are
+                                completed. Address feedback and submit new pull requests with corrections as needed.
+                            </li>
+                            <li>Develop code based on requirements outlined in JIRA user stories, ensuring alignment
+                                with
+                                project objectives.</li>
+                            <br>
+                            <strong>Project Tracking and Scrum Participation:</strong>
+
+
+                            <li>Log JIRA stories for both features and defects to track progress and objectives.</li>
+                            <li>Participate in daily scrum meetings to ensure alignment with company and team
+                                objectives.
+                            </li>
+                            <br>
+                            <strong>Continuous Learning and Skill Development:</strong>
+
+
+                            <li>Continuously upskill to meet the evolving demands of the development space.</li>
+                            <li>Develop desktop applications using JavaScript, C#, HTML, CSS, SQL, and Node.js.</li>
+                            <br>
+                            <strong> Integration and Feature Development:</strong>
+
+
+                            <li>Build integration software to extract data from databases, transform the data into
+                                suitable
+                                formats, and write code to facilitate seamless software integration with minimal user
+                                effort.</li>
+                            <li>Develop and enhance features for existing desktop software based on product
+                                specifications.
+                            </li>
+                            <br>
+                            <strong>API Integration and Reporting:</strong>
+
+
+                            <li>Write code to integrate with APIs and build required features as per product
+                                specifications.
+                                Develop code to generate XBRL reports for submission to regulatory bodies like CIPC.
+                            </li>
+                            <br>
+                            <strong>Performance Management and Goal Setting:</strong>
+
+
+                            <li>Collaborate with management on a quarterly basis to set goals for KPIs, consistently
+                                delivering results that exceed expectations.</li>
+                            <br>
+                            <strong>Automation and Issue Resolution:</strong>
+
+                            <li>Use FinalBuilder to create automated installation sets for functional teams, eliminating
+                                the
+                                need for manual builds.</li>
+                            <li>Investigate and resolve issues that functional teams cannot address, providing
+                                appropriate
+                                feedback and necessary fixes.</li>
+                        </ul>
+                        <h4>Senior functional template developer (March 2017 - April 2020)</h4>
+                        <h5>CQS Technology Holdings - Dunkeld, Gauteng</h5>
+                        <ul>
+                            <li>Taking ownership and delivering of technical requirements received by Product Owner
+                            </li>
+                            <li>Upskilling of junior developers</li>
+                            <li>Ensuring that development team delivers on items commimited to during sprint
+                                planning</li>
+                            <li>Assisting developers to reach their goals before sprint ends</li>
+                            <li>identifying road blocks during sprint planning and give possible work arounds or
+                                solutions</li>
+                            <li>Ensuring development Standards are kept throughout development cycle for team</li>
+                            <li>Conistenly delivering high quality work with minimal defects</li>
+                            <li>Assist training department on creating a Upskilling program for new developer
+                                joining the company</li>
+                            <li>Peforming and exceeding the task of a functional developer</li>
+                            <li>Peforming the duties as team lead for functional developers</li>
+                        </ul>
+
+                        <h4>Functional template developer (October 2014 - February 2017)</h4>
+                        <h5>CQS Technology Holdings - Dunkeld, Gauteng</h5>
+                        <ul>
+                            <li>Produce template customizations of great quality that requires minimal rework.</li>
+                            <li>Perform the review of the work of own and other functional template developers for
+                                accuracy and completeness.</li>
+                            <li>Critically assess the effectiveness of current functional template development
+                                methods and principles and provide suggestions for improvements.</li>
+                            <li>Critically assess technical requirements and functional specifications for software
+                                changes to ensure that we build great product which makes a difference to our
+                                clients.</li>
+                            <li>Conscious continuous improvement shown in every sprint (and kept up in future
+                                sprints) - Kaizen</li>
+                            <li>Work effectively as an individual in a team to deliver workable pieces of software
+                                (Features) at the end of each PI</li>
+                            <li>Participate in Backlog grooming as to ensure that Stories meet the definition of
+                                ready before taking into sprint</li>
+                            <li>Effectively estimating stories in Sprint planning and backlog grooming in order
+                                identify the following: risks, dependencies, uncertainty, Volume and Complexity</li>
+                            <li>Having effective and regular ceremonies where all team members participate - Sprint
+                                planning, daily scrums, demo/review, retrospectives, backlog grooming</li>
+                            <li>Team is healthy with regards to Agile (self-organising, respect each other,
+                                ceremonies are kept up, work is iterative)</li>
+                            <li>Deliver consistently on 90% - 100% at feature level - working software at the end of
+                                every sprint</li>
+                            <li>Ensuring development Standards are kept throughout development cycle</li>
+                        </ul>
+
+                        <h4>CaseWare support consultant (August 2012 - October 2014)</h4>
+                        <h5>CQS Technology Holdings - Dunkeld, Gauteng</h5>
+                        <ul>
+                            <li>Provides support to users experiencing problems using software or inquiring how to
+                                use specific features.</li>
+                            <li>Assists in fixing client files.</li>
+                            <li>Makes pro-active support calls to ensure that all clients are satisfied.</li>
+                            <li>Assists in testing new software and templates.</li>
+                            <li>Adhoc tasks as assigned by manager when required.</li>
+                            <li>PWC dedicated Consultant (Firm Template Customizations)</li>
+                            <li>Test PWC reported problems on customized template and fix where needed</li>
+                            <li>Create FAQ on Frequently asked Queries</li>
+                            <li>Gives Training to Team members as requested by manager</li>
+                            <li>Test the latest software before final release</li>
+                        </ul>
+
+                        <h4>Pastel Technical support (June 2010 - July 2012)</h4>
+                        <h5>Soft line Pastel - Woodmead, Gauteng</h5>
+                        <ul>
+                            <li>Provides support to users experiencing problems using software or inquiring how to
+                                use specific features.</li>
+                            <li>Assists in fixing client files.</li>
+                            <li>Makes pro-active support calls to ensure that all clients are satisfied.</li>
+                            <li>Assists in testing new software</li>
+                            <li>Adhoc tasks as assigned by manager when required.</li>
+                        </ul>
+
+                        <h4>Junior Auditor (March 2009 - November 2009)</h4>
+                        <h5>JCB incorporated - Parkhurst, Gauteng</h5>
+                        <ul>
+                            <li>Auditing Clients Books ETC</li>
+                            <li>Filing</li>
+                            <li>Expenses</li>
+                            <li>Trade and other Payables</li>
+                            <li>Trade and other Receivables</li>
+                            <li>Revenue</li>
+                            <li>Purchases</li>
+                            <li>Capital Working Papers</li>
+                            <li>Cash and Cash equivalents</li>
+                            <li>Finance Cost</li>
+                            <li>Normal Office work</li>
+                            <li>Stock Quantity Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
